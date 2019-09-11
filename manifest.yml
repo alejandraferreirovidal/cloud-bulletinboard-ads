@@ -22,7 +22,7 @@ applications:
   - uaa-bulletinboard
 
 - name: approuter
-  host: approuter-<<your user id>>
+  host: approuter-d065613
   path: src/main/approuter
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.6.10
   memory: 128M
